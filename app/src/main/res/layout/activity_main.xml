@@ -88,6 +88,7 @@
                     android:layout_marginLeft="5dp">
 
                     <TextView
+                        android:id="@+id/title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Roman Kamushken"
@@ -351,7 +352,7 @@
                 android:id="@+id/imageView9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="0"
+                android:layout_marginStart="0dp"
                 android:layout_marginTop="17dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/book_open_variant" />
